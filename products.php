@@ -2,7 +2,7 @@
 
 class Products extends CI_Controller 
 {
-
+//amiradi 14.11.7878
 	function __construct(){
 		parent::__construct();
 		$this->load->model("products_model"); //constructor yang dipanggil ketika memanggil products.php untuk melakukan pemanggilan pada model : products_model.php yang ada di folder models
